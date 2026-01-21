@@ -1,0 +1,56 @@
+.hero-container {
+  list-style: none;
+  margin: 1rem;
+}
+
+/* Main card container */
+.main-container {
+  width: 220px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.main-container:hover {
+  transform: scale(1.05);
+}
+
+/* Poster */
+.poster-container {
+  width: 100%;
+  height: 330px;
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Button container below the card */
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem 0;
+  background-color: #fff; /* optional: white background under button */
+}
+
+/* Black & white button style */
+.ticket__buy-btn {
+  padding: 0.7rem 1.5rem;
+  border: 2px solid #000;
+  border-radius: 25px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ticket__buy-btn:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+  transform: translateY(-2px);
+}
