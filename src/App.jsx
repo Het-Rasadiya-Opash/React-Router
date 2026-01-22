@@ -5,7 +5,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import {Home} from "./pages/Home";
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Movie from "./pages/Movie";
 import AppLayout from "./components/layout/AppLayout";

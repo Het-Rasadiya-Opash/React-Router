@@ -68,15 +68,7 @@ export const Contact = () => {
                 </div>
               </Form>
             </div>
-            <div className="contact-image">
-              <figure>
-                <img
-                  src="/contact.png"
-                  alt="contact pic"
-                  className="contact_image"
-                />
-              </figure>
-            </div>
+           
           </div>
         </div>
       </section>
