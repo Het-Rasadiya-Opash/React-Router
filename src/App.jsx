@@ -5,16 +5,16 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import Home from "./pages/Home";
+import {Home} from "./pages/Home";
 import About from "./pages/About";
-import Contact, { contactData } from "./pages/Contact";
 import Movie from "./pages/Movie";
 import AppLayout from "./components/layout/AppLayout";
-import ErrorPage from "./pages/ErrorPage";
+import {ErrorPage} from "./pages/ErrorPage";
 import { getMoviesData } from "./api/GetAPIData";
-import MovieDetails from "./components/UI/MovieDetails";
+import { Contact, contactData } from "./pages/Contact";
+import "./App.css";
+import { MovieDetails } from "./components/UI/MovieDetails";
 import { getMovieDeatils } from "./api/GetMovieDetails";
-
 const App = () => {
   // const router = createBrowserRouter(
   //   createRoutesFromElements(

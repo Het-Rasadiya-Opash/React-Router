@@ -1,24 +1,15 @@
-import React from "react";
-import "../../App.css";
-
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="section-footer">
       <div className="footer-container container">
-        
         <div className="content_1">
-          <img src="/images/logo.png" alt="logo" />
+          <img src="./images/logo.png" alt="logo" />
           <p>
-            Welcome to Thapa EcomStore, <br />
-            your ultimate destination for <br />
+            Welcome to Thapa EcomStore, your ultimate destination for
             cutting-edge gadgets!
           </p>
-          <img
-            src="https://i.postimg.cc/Nj9dgJ98/cards.png"
-            alt="cards"
-          />
+          <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
         </div>
-
         <div className="content_2">
           <h4>SHOPPING</h4>
           <a href="#">Computer Store</a>
@@ -26,19 +17,24 @@ const Footer = () => {
           <a href="#">Accessories</a>
           <a href="#">Sales & Discount</a>
         </div>
-
         <div className="content_3">
           <h4>Experience</h4>
-          <a href="/contact">Contact Us</a>
-          <a href="#">Payment Method</a>
-          <a href="#">Delivery</a>
-          <a href="#">Return and Exchange</a>
+          <a href="./contact.html">Contact Us</a>
+          <a href="" target="_blank">
+            Payment Method
+          </a>
+          <a href="" target="_blank">
+            Delivery
+          </a>
+          <a href="" target="_blank">
+            Return and Exchange
+          </a>
         </div>
-
         <div className="content_4">
           <h4>NEWSLETTER</h4>
           <p>
-            Be the first to know about new <br />
+            Be the first to know about new
+            <br />
             arrivals, sales & promos!
           </p>
           <div className="f-mail">
@@ -47,16 +43,9 @@ const Footer = () => {
           </div>
           <hr />
         </div>
-
       </div>
-
-      <div className="f-design">
-        <div className="f-design-txt">
-          <p>Design and Code by Het</p>
-        </div>
-      </div>
+      
+      
     </footer>
   );
 };
-
-export default Footer;
