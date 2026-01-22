@@ -1,6 +1,9 @@
 import React from "react";
-import './Card.css'
+import "./Card.css";
+import { NavLink } from "react-router-dom";
+
 const Card = ({ curMovie }) => {
+
   const { Poster, imdbID } = curMovie;
   return (
     <>
@@ -10,8 +13,10 @@ const Card = ({ curMovie }) => {
             <img src={Poster} className="poster" alt={imdbID} />
           </div>
           <div className="button-container">
-          <button className="ticket__buy-btn">Watch Now</button>
-        </div>
+            <NavLink to={`/movie/${imdbID}`}>
+              <button className="ticket__buy-btn">Watch Now</button>
+            </NavLink>
+          </div>
         </div>
       </li>
     </>
